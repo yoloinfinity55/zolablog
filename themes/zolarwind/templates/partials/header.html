@@ -26,7 +26,7 @@
                   {% if entry.url == current_path %}
                     <span aria-current="page" class="px-3 py-2 ml-2 rounded-md font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-600">{{ entry.title }}</span>
                   {% else %}
-                    <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600" href="{{ entry.url | safe }}" title="{{ entry.title }}">{{ entry.title }}</a>
+                    <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600" href="{{ get_url(path=entry.url) | safe }}" title="{{ entry.title }}">{{ entry.title }}</a>
                   {% endif %}
                 {% endfor %}
               {% endif %}
@@ -55,7 +55,7 @@
           {% if entry.url == current_path %}
             <span aria-current="page" class="block px-3 py-2 rounded-md font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-600">{{ entry.title }}</span>
           {% else %}
-            <a class="mt-1 block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600" href="{{ entry.url | safe }}" title="{{ entry.title }}">{{ entry.title }}</a>
+            <a class="mt-1 block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600" href="{{ get_url(path=entry.url) | safe }}" title="{{ entry.title }}">{{ entry.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
