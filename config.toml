@@ -26,6 +26,7 @@ taxonomies = [
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 highlight_theme = "1337"
+build_prefix_url = true
 
 # You can add additional syntaxes and themes here
 extra_syntaxes_and_themes = ["themes/zolarwind/syntaxes"]
