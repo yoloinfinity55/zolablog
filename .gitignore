@@ -1,0 +1,10 @@
+# Zola build output
+/public/
+
+# Node dependencies
+/node_modules/
+/themes/zolarwind/node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
