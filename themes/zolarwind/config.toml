@@ -56,11 +56,7 @@ site_description = "My findings while exploring various aspects of programming"
 # The quote shown on banner
 quote = { text = "Do, or not do. There is no try.", author = "Yoda" }
 
-# The main navigation menu
-menu_pages = [
-    { title = "Imprint",              url = "/pages/imprint/" },
-    { title = "About",                url = "/pages/about/"   },
-]
+
 
 # The pages that appear in the footer
 footer_pages = [

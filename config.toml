@@ -44,7 +44,7 @@ generator = "Zola"
 favicon_svg = "/img/yin-yang.svg"
 
 # Optional: Copyright notice. {year} is replaced with the current year.
-copyright = "Copyright © {year} - Your Name"
+copyright = "Copyright © {year} - Mini John"
 
 # Optional: A brief description for the site banner
 # site_description = "A simple blog theme for Zola with Tailwind CSS."

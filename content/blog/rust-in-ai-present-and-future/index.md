@@ -1,6 +1,6 @@
 +++
 title = "Rust in the Age of AI: Present and Future"
-date = 2025-09-29
+date = 2023-01-01
 description = "A look at how Rust is being used in AI today and what its future holds in the age of artificial intelligence."
 [extra]
 math = false

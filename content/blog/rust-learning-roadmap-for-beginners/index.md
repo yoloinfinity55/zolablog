@@ -1,6 +1,6 @@
 +++
 title = "A Beginner's Roadmap to Learning Rust"
-date = 2025-09-29
+date = 2023-01-01
 description = "A recommended roadmap for beginners to learn the Rust programming language from scratch, with resources and key concepts at each step."
 [extra]
 math = false

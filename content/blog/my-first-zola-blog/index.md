@@ -1,6 +1,6 @@
 +++
 title = "My first zola blog"
-date = 2025-09-29
+date = 2023-01-01
 description = "A short summary of my post."
 [extra]
 banner = "path/to/my/banner-image.jpg"
