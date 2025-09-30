@@ -6,7 +6,7 @@
 <div class="flex flex-col rounded-md shadow-md overflow-hidden">
   <div class="flex-shrink-0">
     <a href="{{ page.permalink }}" aria-label="{{ page.title | default(value=res.empty_page_title) }}">
-      <img class="h-48 w-full object-cover" src="{{ banner }}" alt="{{ page.title | default(value=res.empty_page_title) }}" />
+      <img class="h-48 w-full object-cover" src="{{ get_url(path=banner) }}" alt="{{ page.title | default(value=res.empty_page_title) }}" />
     </a>
   </div>
   <div class="flex-1 bg-white p-6 flex flex-col justify-between">
