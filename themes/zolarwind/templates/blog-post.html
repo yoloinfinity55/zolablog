@@ -2,7 +2,10 @@
 
 {% block content %}
 
-  {% set banner = page.extra.image | default(value="img/default-banner.jpg") %}
+  {% set banner = "/img/default-banner.jpg" %}
+{% if page.extra.image is defined %}
+  {% set banner = page.path ~ page.extra.image %}
+{% endif %}
 
   <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
     <article class="prose">
