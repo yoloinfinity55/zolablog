@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://yoloinfinity55.github.io/zolablog/sitemap.xml

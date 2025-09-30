@@ -1,0 +1,71 @@
+# The URL the site will be built for
+base_url = "https://yoloinfinity55.github.io/zolablog/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# The name of the theme to use
+theme = "zolarwind"
+
+# The default language for the site
+default_language = "en"
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Whether to generate a feed
+generate_feeds = true
+
+# Taxonomies for the site
+taxonomies = [
+    { name = "tags", paginate_by = 6, feed = true },
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "1337"
+
+# You can add additional syntaxes and themes here
+extra_syntaxes_and_themes = ["themes/zolarwind/syntaxes"]
+
+[extra]
+# Put all your custom variables here
+title = "Zolarwind"
+
+# Path to the language resource files
+path_language_resources = "themes/zolarwind/i18n/"
+
+# Optional: Generator version
+generator = "Zola"
+
+# Optional: Favicon
+favicon_svg = "/img/yin-yang.svg"
+
+# Optional: Copyright notice. {year} is replaced with the current year.
+copyright = "Copyright © {year} - Your Name"
+
+# Optional: A brief description for the site banner
+# site_description = "A simple blog theme for Zola with Tailwind CSS."
+
+# Optional: A quote for the banner
+# quote = { text = "Do or do not. There is no try.", author = "Yoda" }
+
+# Optional: Main navigation menu
+menu_pages = [
+    { title = "Home", url = "/" },
+    { title = "Blog", url = "/blog" },
+    { title = "Tags", url = "/tags" },
+]
+
+# Optional: Footer navigation
+footer_pages = [
+    { title = "Imprint", url = "/imprint" },
+    { title = "Privacy", url = "/privacy" },
+]
+
+# Optional: Social media links
+social_links = [
+    { name = "github", enabled = true, url = "https://github.com/your-github", icon = "github.svg" },
+]
