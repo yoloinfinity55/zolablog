@@ -50,6 +50,6 @@ To keep the repository organized and manageable, I have implemented a process fo
 
 ## Contact
 
-If you have any questions or need further assistance, please contact [me](https://github.com/thomasweitzel) or open an issue.
+If you have any questions or need further assistance, please contact [me](https://github.com/yoloinfinity55/zolablog) or open an issue.
 
 Thank you for your contributions!

@@ -26,23 +26,31 @@ you can choose your preferred language setting for a consistent blog experience.
 ---
 
 ## Table of Contents:
-- [Demo Website](#demo-website)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Front Matter](#front-matter)
-- [Localization](#localization)
-- [Integrating the theme folder](#integrating-the-theme-folder)
-- [Development](#development)
-- [Remarks](#remarks)
-- [Contributing](#contributing)
-- [License](#license)
+- [The Zolarwind Theme for Zola](#the-zolarwind-theme-for-zola)
+  - [Features:](#features)
+  - [Table of Contents:](#table-of-contents)
+  - [Demo Website](#demo-website)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+    - [Basic Configuration:](#basic-configuration)
+    - [Markdown Configuration:](#markdown-configuration)
+    - [Extra Configuration:](#extra-configuration)
+  - [Front matter](#front-matter)
+  - [Localization](#localization)
+  - [Integrating the theme folder](#integrating-the-theme-folder)
+  - [Development](#development)
+  - [Remarks](#remarks)
+    - [Typography for Markdown](#typography-for-markdown)
+    - [Serve KaTex files locally](#serve-katex-files-locally)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ---
 
 ## Demo Website
 
-You can see the theme in action on my [personal website](https://pureandroid.com).
+You can see the theme in action on my [personal website](https://github.com/yoloinfinity55/zolablog).
 The site uses the German language.
 
 ---

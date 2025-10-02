@@ -1,9 +1,9 @@
 name = "Zolarwind"
 description = "A localizable blog theme using Tailwind CSS for styling and KaTex for math"
 license = "MIT"
-homepage = "https://github.com/thomasweitzel/zolarwind"
+homepage = "https://github.com/yoloinfinity55/zolablog"
 min_version = "0.20.0"
-demo = "https://pureandroid.com"
+demo = "https://github.com/yoloinfinity55/zolablog"
 
 [extra]
 
