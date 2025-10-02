@@ -69,8 +69,8 @@ menu_pages = [
 
 # Optional: Footer navigation
 footer_pages = [
-    { title = "Imprint", url = "/imprint" },
-    { title = "Privacy", url = "/privacy" },
+    { title = "Imprint", url = "/pages/imprint" },
+    { title = "Privacy", url = "/pages/privacy" },
 ]
 
 # Optional: Social media links
