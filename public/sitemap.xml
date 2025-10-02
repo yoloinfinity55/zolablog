@@ -11,12 +11,12 @@
         <lastmod>2023-07-29</lastmod>
     </url>
     <url>
-        <loc>https://yoloinfinity55.github.io/zolablog/blog/game-of-fifteen/</loc>
-        <lastmod>2020-06-11</lastmod>
+        <loc>https://yoloinfinity55.github.io/zolablog/blog/diagrams-with-mermaid/</loc>
+        <lastmod>2023-09-26</lastmod>
     </url>
     <url>
-        <loc>https://yoloinfinity55.github.io/zolablog/blog/mermaid/</loc>
-        <lastmod>2023-09-26</lastmod>
+        <loc>https://yoloinfinity55.github.io/zolablog/blog/game-of-fifteen/</loc>
+        <lastmod>2020-06-11</lastmod>
     </url>
     <url>
         <loc>https://yoloinfinity55.github.io/zolablog/blog/my-first-zola-blog/</loc>
@@ -27,6 +27,10 @@
     </url>
     <url>
         <loc>https://yoloinfinity55.github.io/zolablog/blog/page/2/</loc>
+    </url>
+    <url>
+        <loc>https://yoloinfinity55.github.io/zolablog/blog/project-specification/</loc>
+        <lastmod>2025-10-02</lastmod>
     </url>
     <url>
         <loc>https://yoloinfinity55.github.io/zolablog/blog/rust-in-ai-present-and-future/</loc>
@@ -51,11 +55,11 @@
     </url>
     <url>
         <loc>https://yoloinfinity55.github.io/zolablog/pages/about/</loc>
-        <lastmod>2019-03-11</lastmod>
+        <lastmod>2025-10-02</lastmod>
     </url>
     <url>
         <loc>https://yoloinfinity55.github.io/zolablog/pages/imprint/</loc>
-        <lastmod>2019-03-11</lastmod>
+        <lastmod>2025-10-02</lastmod>
     </url>
     <url>
         <loc>https://yoloinfinity55.github.io/zolablog/pages/page/1/</loc>
@@ -90,9 +94,27 @@
         <loc>https://yoloinfinity55.github.io/zolablog/tags/math/page/1/</loc>
     </url>
     <url>
+        <loc>https://yoloinfinity55.github.io/zolablog/tags/meta/</loc>
+    </url>
+    <url>
+        <loc>https://yoloinfinity55.github.io/zolablog/tags/meta/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://yoloinfinity55.github.io/zolablog/tags/project/</loc>
+    </url>
+    <url>
+        <loc>https://yoloinfinity55.github.io/zolablog/tags/project/page/1/</loc>
+    </url>
+    <url>
         <loc>https://yoloinfinity55.github.io/zolablog/tags/rust/</loc>
     </url>
     <url>
         <loc>https://yoloinfinity55.github.io/zolablog/tags/rust/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://yoloinfinity55.github.io/zolablog/tags/zola/</loc>
+    </url>
+    <url>
+        <loc>https://yoloinfinity55.github.io/zolablog/tags/zola/page/1/</loc>
     </url>
 </urlset>

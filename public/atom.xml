@@ -4,8 +4,146 @@
     <link rel="self" type="application/atom+xml" href="https://yoloinfinity55.github.io/zolablog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://yoloinfinity55.github.io/zolablog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-09-26T00:00:00+00:00</updated>
+    <updated>2025-10-02T00:00:00+00:00</updated>
     <id>https://yoloinfinity55.github.io/zolablog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Project Specification</title>
+        <published>2025-10-02T00:00:00+00:00</published>
+        <updated>2025-10-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://yoloinfinity55.github.io/zolablog/blog/project-specification/"/>
+        <id>https://yoloinfinity55.github.io/zolablog/blog/project-specification/</id>
+        
+        <content type="html" xml:base="https://yoloinfinity55.github.io/zolablog/blog/project-specification/">&lt;h1 id=&quot;project-specification-zola-blog&quot;&gt;Project Specification: Zola Blog&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1-overview&quot;&gt;1. Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;This project is a personal blog created using the Zola static site generator and the &quot;zolarwind&quot; theme. The blog serves as a platform for publishing articles on various technical topics.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;2-technical-stack&quot;&gt;2. Technical Stack&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Static Site Generator:&lt;&#x2F;strong&gt; Zola&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Theme:&lt;&#x2F;strong&gt; zolarwind&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Deployment:&lt;&#x2F;strong&gt; GitHub Pages&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;3-project-structure&quot;&gt;3. Project Structure&lt;&#x2F;h2&gt;
+&lt;p&gt;The project follows the standard Zola directory structure:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;content&#x2F;&lt;&#x2F;code&gt;: Contains the markdown content for the blog posts and pages.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;themes&#x2F;&lt;&#x2F;code&gt;: Contains the &quot;zolarwind&quot; theme.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;public&#x2F;&lt;&#x2F;code&gt;: The output directory for the generated static site.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;config.toml&lt;&#x2F;code&gt;: The main configuration file for the Zola site.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;.github&#x2F;workflows&#x2F;deploy.yml&lt;&#x2F;code&gt;: GitHub Actions workflow for deploying the site to GitHub Pages.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;4-content&quot;&gt;4. Content&lt;&#x2F;h2&gt;
+&lt;p&gt;The blog features articles on a range of technical subjects, including:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Internal Interest Rate Calculation&lt;&#x2F;li&gt;
+&lt;li&gt;Diagrams with Mermaid&lt;&#x2F;li&gt;
+&lt;li&gt;Game of Fifteen&lt;&#x2F;li&gt;
+&lt;li&gt;Rust in AI&lt;&#x2F;li&gt;
+&lt;li&gt;Rust Learning Roadmap&lt;&#x2F;li&gt;
+&lt;li&gt;Tail Recursion&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;5-deployment&quot;&gt;5. Deployment&lt;&#x2F;h2&gt;
+&lt;p&gt;The blog is deployed to GitHub Pages via a GitHub Actions workflow. The workflow is triggered by a push to the &lt;code&gt;main&lt;&#x2F;code&gt; branch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>About</title>
+        <published>2025-10-02T00:00:00+00:00</published>
+        <updated>2025-10-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Yolo Infinity
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://yoloinfinity55.github.io/zolablog/pages/about/"/>
+        <id>https://yoloinfinity55.github.io/zolablog/pages/about/</id>
+        
+        <content type="html" xml:base="https://yoloinfinity55.github.io/zolablog/pages/about/">&lt;h2 id=&quot;who-am-i&quot;&gt;Who am I?&lt;&#x2F;h2&gt;
+&lt;p&gt;My name is &lt;strong&gt;Yolo Infinity&lt;&#x2F;strong&gt;.
+When people have trouble pronouncing my last name, I suggest to try &lt;em&gt;White Cell&lt;&#x2F;em&gt;.
+If you want to call me by my nickname, that&#x27;s fine, too.
+It is &lt;strong&gt;Yolo&lt;&#x2F;strong&gt;, pronounced like &lt;em&gt;Tommy&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I work as an independent software developer since more than twenty years.
+Industries I&#x27;ve worked in include Finance, Health Care, Automotive, Military, and Government.
+Mostly I worked on internal projects, but also some software products.
+My mother tongue is German.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-s-the-topic&quot;&gt;What&#x27;s the topic?&lt;&#x2F;h2&gt;
+&lt;p&gt;This blog covers my findings while exploring various aspects of programming in general, with a special focus on functional programming.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-motivation&quot;&gt;The motivation?&lt;&#x2F;h2&gt;
+&lt;p&gt;Why do people climb mountains?
+British mountaineer George Mallory famously answered: &lt;em&gt;Because they&#x27;re there&lt;&#x2F;em&gt;.
+They want to reach the top faster, in a more efficient or elegant way, differently than anybody else, or even at all.
+That&#x27;s how you approach problem-solving in programming.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-to-expect&quot;&gt;What to expect&lt;&#x2F;h2&gt;
+&lt;p&gt;Since I&#x27;m coming from an object-oriented background, expect all sorts of problems I&#x27;m stumbling into and then getting out of.
+C, C++, and Java were my first professionally used programming languages.
+Later I switched to Scala, and even later to Kotlin.
+I had, and still have, a lot to learn, even more to unlearn, and I&#x27;m not nearly done yet.
+If you&#x27;re having a similar background, maybe you can get something out of my mistakes and the occasional success.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;do-or-not-do-there-is-no-try-yoda&quot;&gt;&lt;em&gt;Do, or not do. There is no try&lt;&#x2F;em&gt;. – Yoda&lt;&#x2F;h2&gt;
+&lt;p&gt;The decision is not between doing something or not.
+It&#x27;s that &lt;em&gt;trying&lt;&#x2F;em&gt; is something more than just any attempt.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Imprint</title>
+        <published>2025-10-02T00:00:00+00:00</published>
+        <updated>2025-10-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Yolo Infinity
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://yoloinfinity55.github.io/zolablog/pages/imprint/"/>
+        <id>https://yoloinfinity55.github.io/zolablog/pages/imprint/</id>
+        
+        <content type="html" xml:base="https://yoloinfinity55.github.io/zolablog/pages/imprint/">&lt;!-- Add two spaces after each line to enforce line break --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Yolo Infinity&lt;&#x2F;em&gt;&lt;br &#x2F;&gt;
+&lt;em&gt;Northgraves Crescent&lt;&#x2F;em&gt;&lt;br &#x2F;&gt;
+&lt;em&gt;K2M 0C8 Ontario&lt;&#x2F;em&gt;&lt;br &#x2F;&gt;
+&lt;em&gt;Canada&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Copying and redistribution of all my pages for private, non-commercial use is permitted provided this notice is attached.
+See section &lt;a href=&quot;https:&#x2F;&#x2F;yoloinfinity55.github.io&#x2F;zolablog&#x2F;pages&#x2F;imprint&#x2F;#copyright&quot;&gt;Copyright&lt;&#x2F;a&gt; for more information.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;liability-for-content&quot;&gt;Liability for content&lt;&#x2F;h3&gt;
+&lt;p&gt;Obligations to remove or block the use of information under general law remain unaffected.
+A liability in this regard is only possible from the date of knowledge of a specific infringement.
+Upon notification of violations, I will remove such content immediately.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;liability-for-links&quot;&gt;Liability for links&lt;&#x2F;h3&gt;
+&lt;p&gt;My website contains links to external websites of third parties over whose contents I have no influence.
+Therefore, I&#x27;m not liable for these external contents.
+The provider or operator of these pages is always responsible for the contents of the linked pages.
+At the time of linking I have checked the linked pages for possible legal violations.
+Illegal content was not recognizable at the time of linking.
+A permanent control of the content of the linked pages is not reasonable without concrete evidence of an infringement.
+Upon notification of violations, I will remove such links immediately.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;copyright&quot;&gt;Copyright&lt;&#x2F;h3&gt;
+&lt;p&gt;The content and works created by me on these pages are subject to copyright law.
+Reproduction, adaptation, distribution, and any kind of exploitation outside the limits of copyright require my written consent.
+Downloads and copies of these pages are for private, non-commercial use only.
+As far as it wasn&#x27;t me who created the contents on these pages, I respect the copyright of third parties.
+In particular, content of third parties is marked as such.
+Still, should you be aware of a copyright infringement, please let me know.
+Upon notification of violations, I will remove such content immediately.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Diagrams with Mermaid</title>
         <published>2023-09-26T00:00:00+00:00</published>
@@ -13,14 +151,14 @@
         
         <author>
           <name>
-            Thomas Weitzel
+            Yolo Infinity
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://yoloinfinity55.github.io/zolablog/blog/mermaid/"/>
-        <id>https://yoloinfinity55.github.io/zolablog/blog/mermaid/</id>
+        <link rel="alternate" type="text/html" href="https://yoloinfinity55.github.io/zolablog/blog/diagrams-with-mermaid/"/>
+        <id>https://yoloinfinity55.github.io/zolablog/blog/diagrams-with-mermaid/</id>
         
-        <content type="html" xml:base="https://yoloinfinity55.github.io/zolablog/blog/mermaid/">&lt;h2 id=&quot;what-are-mermaid-diagrams&quot;&gt;What are Mermaid diagrams&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://yoloinfinity55.github.io/zolablog/blog/diagrams-with-mermaid/">&lt;h2 id=&quot;what-are-mermaid-diagrams&quot;&gt;What are Mermaid diagrams&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;mermaid.js.org&quot;&gt;Mermaid&lt;&#x2F;a&gt; is a syntax similar to Markdown where you can use text to describe and automatically generate diagrams.
 With Mermaid, you can generate
 &lt;a href=&quot;https:&#x2F;&#x2F;mermaid.js.org&#x2F;syntax&#x2F;flowchart.html&quot;&gt;Flow charts&lt;&#x2F;a&gt;,
@@ -120,7 +258,7 @@ Because it is the same code as the diagram above, extra care has to be taken to 
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;If you want to mention it in your blog post text,
 make sure to include a zero-width space (&lt;code&gt;ZWSP&lt;&#x2F;code&gt; or &lt;code&gt;U+200B&lt;&#x2F;code&gt;) after the opening and before the closing curly braces to prevent Mermaid from rendering it.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;yoloinfinity55.github.io&#x2F;zolablog&#x2F;blog&#x2F;mermaid&#x2F;mermaid-in-blog-post.png&quot; alt=&quot;How to write Mermaid digram code that is not rendered as a diagram&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;yoloinfinity55.github.io&#x2F;zolablog&#x2F;blog&#x2F;diagrams-with-mermaid&#x2F;mermaid-in-blog-post.png&quot; alt=&quot;How to write Mermaid digram code that is not rendered as a diagram&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -131,7 +269,7 @@ make sure to include a zero-width space (&lt;code&gt;ZWSP&lt;&#x2F;code&gt; or &
         
         <author>
           <name>
-            Thomas Weitzel
+            Yolo Infinity
           </name>
         </author>
         
@@ -582,7 +720,7 @@ Remember, IRR is not just a number but an insight into the potential of an inves
         
         <author>
           <name>
-            Thomas Weitzel
+            Yolo Infinity
           </name>
         </author>
         
@@ -799,7 +937,7 @@ You have to adjust the boards GUI or dynamically generate it - it&#x27;s easy.&l
         
         <author>
           <name>
-            Thomas Weitzel
+            Yolo Infinity
           </name>
         </author>
         
@@ -1030,104 +1168,13 @@ Since tail-recursive functions are particularly useful in functional programming
         
     </entry>
     <entry xml:lang="en">
-        <title>About</title>
-        <published>2019-03-11T00:00:00+00:00</published>
-        <updated>2019-03-11T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            Thomas Weitzel
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://yoloinfinity55.github.io/zolablog/pages/about/"/>
-        <id>https://yoloinfinity55.github.io/zolablog/pages/about/</id>
-        
-        <content type="html" xml:base="https://yoloinfinity55.github.io/zolablog/pages/about/">&lt;h2 id=&quot;who-am-i&quot;&gt;Who am I?&lt;&#x2F;h2&gt;
-&lt;p&gt;My name is &lt;strong&gt;Thomas Weitzel&lt;&#x2F;strong&gt;.
-When people have trouble pronouncing my last name, I suggest to try &lt;em&gt;White Cell&lt;&#x2F;em&gt;.
-If you want to call me by my nickname, that&#x27;s fine, too.
-It is &lt;strong&gt;Thomy&lt;&#x2F;strong&gt;, pronounced like &lt;em&gt;Tommy&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;I work as an independent software developer since more than twenty years.
-Industries I&#x27;ve worked in include Finance, Health Care, Automotive, Military, and Government.
-Mostly I worked on internal projects, but also some software products.
-My mother tongue is German.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;what-s-the-topic&quot;&gt;What&#x27;s the topic?&lt;&#x2F;h2&gt;
-&lt;p&gt;This blog covers my findings while exploring various aspects of programming in general, with a special focus on functional programming.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;the-motivation&quot;&gt;The motivation?&lt;&#x2F;h2&gt;
-&lt;p&gt;Why do people climb mountains?
-British mountaineer George Mallory famously answered: &lt;em&gt;Because they&#x27;re there&lt;&#x2F;em&gt;.
-They want to reach the top faster, in a more efficient or elegant way, differently than anybody else, or even at all.
-That&#x27;s how you approach problem-solving in programming.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;what-to-expect&quot;&gt;What to expect&lt;&#x2F;h2&gt;
-&lt;p&gt;Since I&#x27;m coming from an object-oriented background, expect all sorts of problems I&#x27;m stumbling into and then getting out of.
-C, C++, and Java were my first professionally used programming languages.
-Later I switched to Scala, and even later to Kotlin.
-I had, and still have, a lot to learn, even more to unlearn, and I&#x27;m not nearly done yet.
-If you&#x27;re having a similar background, maybe you can get something out of my mistakes and the occasional success.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;do-or-not-do-there-is-no-try-yoda&quot;&gt;&lt;em&gt;Do, or not do. There is no try&lt;&#x2F;em&gt;. – Yoda&lt;&#x2F;h2&gt;
-&lt;p&gt;The decision is not between doing something or not.
-It&#x27;s that &lt;em&gt;trying&lt;&#x2F;em&gt; is something more than just any attempt.&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Imprint</title>
-        <published>2019-03-11T00:00:00+00:00</published>
-        <updated>2019-03-11T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            Thomas Weitzel
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://yoloinfinity55.github.io/zolablog/pages/imprint/"/>
-        <id>https://yoloinfinity55.github.io/zolablog/pages/imprint/</id>
-        
-        <content type="html" xml:base="https://yoloinfinity55.github.io/zolablog/pages/imprint/">&lt;!-- Add two spaces after each line to enforce line break --&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Thomas Weitzel&lt;&#x2F;em&gt;&lt;br &#x2F;&gt;
-&lt;em&gt;Theodor-Heuss-Str. 21&lt;&#x2F;em&gt;&lt;br &#x2F;&gt;
-&lt;em&gt;63225 Langen (Hesse)&lt;&#x2F;em&gt;&lt;br &#x2F;&gt;
-&lt;em&gt;Germany&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;blockquote&gt;
-&lt;p&gt;Copying and redistribution of all my pages for private, non-commercial use is permitted provided this notice is attached.
-See section &lt;a href=&quot;https:&#x2F;&#x2F;yoloinfinity55.github.io&#x2F;zolablog&#x2F;pages&#x2F;imprint&#x2F;#copyright&quot;&gt;Copyright&lt;&#x2F;a&gt; for more information.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;liability-for-content&quot;&gt;Liability for content&lt;&#x2F;h3&gt;
-&lt;p&gt;As a service provider I&#x27;m responsible according to Article 7(1) TMG (Germany) for my own contents on these pages according to the general laws.
-According to Article 8 to 10 TMG (Germany) I am not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate an illegal activity.
-Obligations to remove or block the use of information under general law remain unaffected.
-A liability in this regard is only possible from the date of knowledge of a specific infringement.
-Upon notification of violations, I will remove such content immediately.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;liability-for-links&quot;&gt;Liability for links&lt;&#x2F;h3&gt;
-&lt;p&gt;My website contains links to external websites of third parties over whose contents I have no influence.
-Therefore, I&#x27;m not liable for these external contents.
-The provider or operator of these pages is always responsible for the contents of the linked pages.
-At the time of linking I have checked the linked pages for possible legal violations.
-Illegal content was not recognizable at the time of linking.
-A permanent control of the content of the linked pages is not reasonable without concrete evidence of an infringement.
-Upon notification of violations, I will remove such links immediately.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;copyright&quot;&gt;Copyright&lt;&#x2F;h3&gt;
-&lt;p&gt;The content and works created by me on these pages are subject to copyright law.
-Reproduction, adaptation, distribution, and any kind of exploitation outside the limits of copyright require my written consent.
-Downloads and copies of these pages are for private, non-commercial use only.
-As far as it wasn&#x27;t me who created the contents on these pages, I respect the copyright of third parties.
-In particular, content of third parties is marked as such.
-Still, should you be aware of a copyright infringement, please let me know.
-Upon notification of violations, I will remove such content immediately.&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Privacy Policy</title>
         <published>2019-03-11T00:00:00+00:00</published>
         <updated>2019-03-11T00:00:00+00:00</updated>
         
         <author>
           <name>
-            Thomas Weitzel
+            Yolo Infinity
           </name>
         </author>
         
