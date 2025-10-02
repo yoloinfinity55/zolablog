@@ -1,16 +1,16 @@
 +++
-date = 2019-03-11
+date = 2025-10-02
 title = "Imprint"
 description = "Necessary legal stuff"
 template = "page.html"
-authors = ["Thomas Weitzel"]
+authors = ["Yolo Infinity"]
 +++
 
 <!-- Add two spaces after each line to enforce line break -->
-> *Thomas Weitzel*  
-> *Theodor-Heuss-Str. 21*  
-> *63225 Langen (Hesse)*  
-> *Germany*  
+> *Yolo Infinity*  
+> *Northgraves Crescent*  
+> *K2M 0C8 Ontario*  
+> *Canada*  
 
 Copying and redistribution of all my pages for private, non-commercial use is permitted provided this notice is attached.
 See section [Copyright](#copyright) for more information.
@@ -18,8 +18,6 @@ See section [Copyright](#copyright) for more information.
 ## Disclaimer
 
 ### Liability for content
-As a service provider I'm responsible according to Article 7(1) TMG (Germany) for my own contents on these pages according to the general laws.
-According to Article 8 to 10 TMG (Germany) I am not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate an illegal activity.
 Obligations to remove or block the use of information under general law remain unaffected.
 A liability in this regard is only possible from the date of knowledge of a specific infringement.
 Upon notification of violations, I will remove such content immediately.
