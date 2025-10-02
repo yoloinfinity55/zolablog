@@ -54,7 +54,7 @@ copyright = "Copyright {year} by Thomas Weitzel"
 site_description = "My findings while exploring various aspects of programming"
 
 # The quote shown on banner
-quote = { text = "Do, or not do. There is no try.", author = "Yoda" }
+quote = { text = "Do, or not do. There is no try.", author = "Yolo Infinity" }
 
 
 
