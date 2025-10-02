@@ -4,6 +4,13 @@ base_url = "https://yoloinfinity55.github.io/zolablog/"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
+# Whether to include the `pages` directory in the output URL path
+# This is set to true by default in Zola, but we want to override it for pages
+# to be accessible directly under the base_url.
+# See: https://www.getzola.org/documentation/content/pages/
+# and https://www.getzola.org/documentation/getting-started/configuration/#pages
+# The default value for `pages` is `true`.
+# Setting it to `false` will make pages from `content/pages/` appear directly at the root.
 # The name of the theme to use
 theme = "zolarwind"
 
