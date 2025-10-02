@@ -1,16 +1,16 @@
 +++
-date = 2019-03-11
+date = 2025-10-02
 title = "About"
 description = "Who I am and what this site is all about"
 template = "page.html"
-authors = ["Thomas Weitzel"]
+authors = ["Yolo Infinity"]
 +++
 
 ## Who am I?
-My name is **Thomas Weitzel**.
+My name is **Yolo Infinity**.
 When people have trouble pronouncing my last name, I suggest to try _White Cell_.
 If you want to call me by my nickname, that's fine, too.
-It is **Thomy**, pronounced like _Tommy_.
+It is **Yolo**, pronounced like _Tommy_.
 
 I work as an independent software developer since more than twenty years.
 Industries I've worked in include Finance, Health Care, Automotive, Military, and Government.
