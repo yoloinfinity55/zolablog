@@ -2,7 +2,7 @@
 date = 2023-07-29
 title = "Internal Rate of Return Calculation"
 description = "Deconstructing the math of investment: estimate the annualized rate of return with the IRR algorithm and its Rust implementation."
-authors = ["Thomas Weitzel"]
+authors = ["Yolo Infinity"]
 [taxonomies]
 tags = ["rust", "math"]
 [extra]

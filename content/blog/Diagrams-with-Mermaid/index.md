@@ -2,7 +2,7 @@
 date = 2023-09-26
 title = "Diagrams with Mermaid"
 description = "Discover Mermaid's Markdown-inspired syntax to craft diverse diagrams using simple text in your blog posts. Learn how to integrate and customize Mermaid diagrams."
-authors = ["Thomas Weitzel"]
+authors = ["Yolo Infinity"]
 [taxonomies]
 tags = ["diagram"]
 [extra]
