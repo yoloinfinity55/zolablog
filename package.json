@@ -1,0 +1,13 @@
+{
+  "name": "zolablog",
+  "version": "1.0.0",
+  "scripts": {
+    "css:build": "npx tailwindcss -i ./css/main.css -o ./static/css/generated.css --minify",
+    "css:watch": "npx tailwindcss -i ./css/main.css -o ./static/css/generated.css --watch",
+    "serve": "zola serve"
+  },
+  "devDependencies": {
+    "tailwindcss": "4",
+    "@tailwindcss/cli": "4"
+  }
+}

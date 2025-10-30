@@ -5,6 +5,20 @@
 /node_modules/
 /themes/zolarwind/node_modules/
 
+# Generated CSS
+/static/css/generated.css
+
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Editor directories
+.vscode/
+.idea/

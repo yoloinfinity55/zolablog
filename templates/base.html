@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ config.title }}</title>
+    <link rel="stylesheet" href="{{ config.base_url }}/css/generated.css">
+</head>
+<body class="dark:bg-darkBg dark:text-darkText">
+
+    <header>
+        <!-- Your nav -->
+    </header>
+
+    <main class="container mx-auto py-8 px-4">
+    {% block content %}
+        {{ content | safe }}
+    {% endblock %}
+</main>
+
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+</body>
+</html>
