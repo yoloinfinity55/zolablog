@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="{{ config.default_language }}">
 <head>
+  {# Initialize language resources #}
+  {% set res         = load_data(path=config.extra.path_language_resources ~ config.default_language ~ '.toml') %}
+  {% set locale      = res.settings_locale      | default(value="en")        %}
+  {% set date_locale = res.settings_date_locale | default(value="en_US")     %}
+  {% set date_format = res.settings_date_format | default(value="%B %d, %Y") %}
+
     <meta charset="UTF-8">
-    <title>{{ config.title }}</title>
-    <link rel="stylesheet" href="{{ config.base_url }}/css/generated.css">
+    <title>{{ config.extra.title }}</title>
+    <link rel="stylesheet" href="{{ get_url(path='css/generated.css') }}">
 </head>
 <body class="dark:bg-darkBg dark:text-darkText">
 
