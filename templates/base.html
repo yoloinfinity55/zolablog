@@ -12,21 +12,14 @@
     <link rel="stylesheet" href="{{ get_url(path='css/generated.css') }}">
 </head>
 <body class="dark:bg-darkBg dark:text-darkText">
+  {% include "partials/header.html" %}
 
-    <header>
-        <!-- Your nav -->
-    </header>
-
-    <main class="container mx-auto py-8 px-4">
+  <div id="content">
     {% block content %}
-        {{ content | safe }}
+      {{ content | safe }}
     {% endblock %}
-</main>
+  </div>
 
-
-    <footer>
-        <!-- Footer content -->
-    </footer>
-
+  {% include "partials/footer.html" %}
 </body>
 </html>
